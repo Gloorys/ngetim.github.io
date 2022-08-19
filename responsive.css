@@ -1,0 +1,14 @@
+@media  (max-width: 670px) {
+    .top-wrapper{
+        text-align: left;
+    }
+    footer{
+        text-align: center;
+    }
+    .header-right{
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+      }
+}
