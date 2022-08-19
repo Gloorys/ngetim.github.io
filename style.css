@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  header {
+    height: 70px;
+    width: 100%;
+    background-color: #243b67;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 70px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: #6e5dcf;
+  }
+  .logo {
+    margin-top: 20px;
+    padding: 0 35px;
+    color: #fff;
+    font-family: "Brush Script MT",Cursive;
+    font-size: 30px;
+  }
+  .top-wrapper {
+    padding: 150px 0 200px 0;
+    background-image: url(https://i0.wp.com/harga.web.id/wp-content/uploads/Ilustrasi-Memasangkan-Cincin-Pernikahan-KKTV.jpg?fit=680%2C300&ssl=1);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-family: "Brush Script MT",Cursive;
+  }
+
+  .top-wrapper h2 {
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    margin-bottom: 3px;
+  }
+  
+  
+.lesson-wrapper {
+  padding: 800px 0 200px 0;
+  background-image: url(https://cdn.kibrispdr.org/data/15/baground-batik-biru-13.jpg);
+  background-size: cover;
+}
+
+.heading {
+  margin-top: -700px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+.heading h1 {
+  font-weight: normal;
+}
+.heading h2 {
+  font-weight: normal;
+}
+.lesson {
+  float: left;
+  width: 25%;
+}
+.lesson h1{
+  margin-left: 200px;
+  padding-top: 40px;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icons {
+  position: relative;
+  
+}
+
+.lesson-icon p {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: white;
+  margin-left: 150px;
+}
+.lesson-icon img {
+  margin-left: 150px;
+  padding-top: 10px;
+}
+
+.lesson-icons img {
+  margin-left: 150px;
+  padding-top: 10px;
+}
+.lesson-icons p {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: white;
+  margin-left: 150px;
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Ganti display ke none */
+  display: none;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: white;
+}
+footer {
+  background-color: #243b67;
+  height: 70px;
+  text-align: center;
+  padding-top: 10px;
+
+}
+.footer-logo img{
+  width: 50px;
+  position: relative;
+  right: 10px
+}
+
+.footer-logo p{
+  display: inline-block;
+  position: absolute;
+  color: white;
+  
+}
